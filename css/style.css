@@ -18,10 +18,17 @@ a, a:hover, a:visited {
     text-decoration: none;
 }
 
-/* ======= / ======= */
 
+/* Header Section/Seção do cabeçalho */
+.dsmeta-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.dsmeta-logo-container img {
+    width: 235px;
+}
 
 
 
