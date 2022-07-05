@@ -13,6 +13,10 @@ body, html {
     background-color: #000000;    
 }
 
+a, a:hover, a:visited {
+    color: unset;
+    text-decoration: none;
+}
 
 /* ======= / ======= */
 
