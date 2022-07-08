@@ -95,6 +95,7 @@ header {
 .dsmeta-sales-table {
     width: 100%;
     border-spacing: 0;
+    border-collapse: collapse;
 }
 
 .dsmeta-sales-table thead {
@@ -105,12 +106,16 @@ header {
 }
 
 .dsmeta-sales-table tbody {
-    height: 74px;
     font-size: 14px;
     color: #CFCFCF;
     font-weight: 400;
 }
 
+
+.dsmeta-sales-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
 
 
 
