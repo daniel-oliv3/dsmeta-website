@@ -77,7 +77,14 @@ header {
 
 
 .dsmeta-form-control {
-
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    font-size: 18px;
+    padding: 0 20px;
 }
 
 
