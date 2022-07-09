@@ -172,6 +172,14 @@ header {
     .dsmeta-card {
         padding: 35px;
     }
+
+    .dsmeta-sales-table tbody tr {
+        height: 55px;
+    }
+
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
 }
 
 
