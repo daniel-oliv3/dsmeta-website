@@ -118,12 +118,34 @@ header {
     border-top: 1px solid #5F6E82;
 }
 
+.dsmeta-sales-table tbody tr:hover > td {
+    background-color: #384459;
+}
+
 .dsmeta-sales-table tbody tr:nth-child(odd){ /*odd impar*/
     background-color: #242C3B;
 }
 
+.dsmeta-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
 
+.dsmeta-red-btn {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.dsmeta-red-btn img {
+    width: 19px;
+}
 
 
 
