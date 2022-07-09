@@ -168,6 +168,10 @@ header {
     .show576 {
         display: table-cell;
     }
+
+    .dsmeta-card {
+        padding: 35px;
+    }
 }
 
 
