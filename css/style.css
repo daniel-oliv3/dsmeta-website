@@ -151,11 +151,19 @@ header {
     display: none;
 }
 
-
+.show992 {
+    display: none;
+}
 
 
 
 /* ======= Responsive/Responsividade ======= */
+@media (min-width: 992px){
+    .show992 {
+        display: table-cell;
+    }
+}
+
 @media (min-width: 576px){
     .show576 {
         display: table-cell;
