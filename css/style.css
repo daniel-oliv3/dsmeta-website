@@ -147,50 +147,19 @@ header {
     width: 19px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.show576 {
+    display: none;
+}
 
 
 
 
 
 /* ======= Responsive/Responsividade ======= */
-@media (max-width: 991px){
-
-    html {
-        font-size: 55%;
+@media (min-width: 576px){
+    .show576 {
+        display: table-cell;
     }
-
-}
-
-@media (max-width: 768px){
-
-
-}
-
-@media (max-width: 450px){
-
-    html {
-        font-size: 50%;
-    }
-
 }
 
 
