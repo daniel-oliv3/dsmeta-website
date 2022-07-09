@@ -109,6 +109,7 @@ header {
     font-size: 14px;
     color: #CFCFCF;
     font-weight: 400;
+    text-align: center;
 }
 
 
@@ -117,7 +118,9 @@ header {
     border-top: 1px solid #5F6E82;
 }
 
-
+.dsmeta-sales-table tbody tr:nth-child(odd){ /*odd impar*/
+    background-color: #242C3B;
+}
 
 
 
